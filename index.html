@@ -41,32 +41,6 @@
                 </span>
                 <span id="brand-text" class="text-white">Poder Popular de Yara</span>
             </a>
-            <ul class="navbar-nav mr-auto">
-                <!-- Buscador -->
-                <li class="nav-item dropdown">
-                    <a id="dropdownMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                        class="nav-link dropdown-toggle text-white"><i class="fa fa-search"></i></a>
-                    <ul aria-labelledby="dropdownMenu1" class="dropdown-menu border-0 shadow">
-                        <li>
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text" id="btnGroupAddon">
-                                                <a href=""><i class="fa fa-search"></i></a>
-                                            </div>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="Buscar..."
-                                            aria-label="Input group example" aria-describedby="btnGroupAddon">
-                                    </div>
-                                </div>
-                            </div>
-
-                        </li>
-                    </ul>
-                </li>
-                <!-- Buscador -->
-            </ul>
             <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
                 class="navbar-toggler navbar-toggler-right">
@@ -75,6 +49,29 @@
 
             <div id="navbarSupportedContent" class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
+                    <!-- Buscador -->
+                    <li class="nav-item dropdown">
+                        <a id="ddmBusqueda" href="#" data-toggle="dropdown" aria-haspopup="false"
+                            class="nav-link dropdown-toggle text-white"><i class="fa fa-search"></i></a>
+                        <ul aria-labelledby="ddmBusqueda" class="dropdown-menu menu-buscador border-0 shadow">
+                            <li>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <form class="form-inline">
+                                            <div class="input-group mb-3">
+                                                <input type="text" class="form-control" placeholder="Buscar...">
+                                                <div class="input-group-append">
+                                                    <button class="btn btn-success" type="submit">Ir</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- Buscador -->
                     <li class="nav-item">
                         <a href="index.html" class="nav-link">Inicio</a>
                     </li>
@@ -83,9 +80,9 @@
                     </li>
                     <!-- Level one dropdown -->
                     <li class="nav-item dropdown">
-                        <a id="dropdownMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                        <a id="ddmSubmenu" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
                             class="nav-link dropdown-toggle">Submenu</a>
-                        <ul aria-labelledby="dropdownMenu1" class="dropdown-menu border-0 shadow">
+                        <ul aria-labelledby="ddmSubmenu" class="dropdown-menu border-0 shadow">
                             <li>
                                 <a href="categorias.html" class="dropdown-item">Categorias</a>
                             </li>
@@ -130,8 +127,8 @@
                         </p>
                     </div>
                     <div class="mbr-section-btn align-center">
-                        <a class="btn btn-md btn-primary display-4" href="https://mobirise.co">LEARN MORE</a>
-                        <a class="btn btn-md btn-white-outline display-4" href="https://mobirise.co">LIVE DEMO</a>
+                        <a class="btn btn-primary btn-lg mr-2" href="https://mobirise.co">LEARN MORE</a>
+                        <a class="btn btn-secondary btn-lg" href="https://mobirise.co">LIVE DEMO</a>
                     </div>
                 </div>
                 <div class="mbr-figure pt-5">
@@ -180,7 +177,7 @@
                             </p>
                         </div>
                         <div class="mbr-section-btn text-center"><a href="https://mobirise.co"
-                                class="btn btn-primary display-4">
+                                class="btn btn-primary btn-lg">
                                 Ver más</a></div>
                     </div>
                 </div>
@@ -199,7 +196,7 @@
                             </p>
                         </div>
                         <div class="mbr-section-btn text-center"><a href="https://mobirise.co"
-                                class="btn btn-primary display-4">
+                                class="btn btn-primary btn-lg">
                                 Ver más</a></div>
                     </div>
                 </div>
@@ -216,7 +213,7 @@
                                 </em><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, odit?</p>
                         </div>
                         <div class="mbr-section-btn text-center"><a href="https://mobirise.co"
-                                class="btn btn-primary display-4">
+                                class="btn btn-primary btn-lg">
                                 Ver más</a></div>
                     </div>
                 </div>
@@ -233,7 +230,7 @@
                                 </em><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, odit?</p>
                         </div>
                         <div class="mbr-section-btn text-center"><a href="https://mobirise.co"
-                                class="btn btn-primary display-4">
+                                class="btn btn-primary btn-lg">
                                 Ver más</a></div>
                     </div>
                 </div>
@@ -248,7 +245,7 @@
         <div class="container">
             <div class="media-container-row title">
                 <div class="col-12 col-md-8">
-                    <div class="mbr-section-btn align-center"><a class="btn btn-primary display-4"
+                    <div class="mbr-section-btn align-center"><a class="btn btn-primary btn-lg"
                             href="https://mobirise.co">Ver todas las noticias</a></div>
                 </div>
             </div>
@@ -474,7 +471,7 @@
         <div class="container">
             <div class="media-container-row title">
                 <div class="col-12 col-md-8">
-                    <div class="mbr-section-btn align-center"><a class="btn btn-primary display-4"
+                    <div class="mbr-section-btn align-center"><a class="btn btn-primary btn-lg"
                             href="https://mobirise.co">Todas las Galerías</a></div>
                 </div>
             </div>
@@ -538,7 +535,7 @@
                                         class="form-control input display-7" id="message-form4-3m"></textarea>
                                 </div>
                                 <div class="col-md-12 input-group-btn  mt-2 align-center"><button type="submit"
-                                        class="btn btn-form btn-black display-4">Enviar</button></div>
+                                        class="btn btn-form btn-black btn-lg">Enviar</button></div>
                             </div>
                         </form>
                         <!-- -Formbuilder Form- -->
@@ -686,21 +683,6 @@
                             <div class="soc-item">
                                 <a href="https://www.youtube.com/c/mobirise" target="_blank">
                                     <span class="socicon-youtube socicon mbr-iconfont mbr-iconfont-social"></span>
-                                </a>
-                            </div>
-                            <div class="soc-item">
-                                <a href="https://instagram.com/mobirise" target="_blank">
-                                    <span class="socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
-                                </a>
-                            </div>
-                            <div class="soc-item">
-                                <a href="https://plus.google.com/u/0/+Mobirise" target="_blank">
-                                    <span class="socicon-googleplus socicon mbr-iconfont mbr-iconfont-social"></span>
-                                </a>
-                            </div>
-                            <div class="soc-item">
-                                <a href="https://www.behance.net/Mobirise" target="_blank">
-                                    <span class="socicon-behance socicon mbr-iconfont mbr-iconfont-social"></span>
                                 </a>
                             </div>
                         </div>

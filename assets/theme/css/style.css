@@ -362,10 +362,10 @@ figure[mbr-media-size] {
 /*! Buttons */
 .btn {
   font-weight: 500;
-  border-width: 2px;
+  /* border-width: 2px; */
   font-style: normal;
   letter-spacing: 1px;
-  margin: 0.4rem 0.8rem;
+  /* margin: 0.4rem 0.8rem; */
   white-space: normal;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -507,7 +507,7 @@ blockquote {
   box-shadow: none;
   color: #565656;
   line-height: 1.43;
-  min-height: 3.5em;
+  /* min-height: 3.5em; */
   padding: 1.07em 0.5em;
 }
 

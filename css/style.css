@@ -12,7 +12,7 @@
 
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
-  color: #149dcc;
+  color: #24355c;
   text-decoration: none;
 }
 
@@ -40,13 +40,6 @@
   }
 }
 
-.dropdown-submenu {
-  position: relative;
-}
-
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: 0px;
-  margin-left: 0px;
+.menu-buscador {
+  width: 300px !important;
 }
