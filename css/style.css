@@ -12,8 +12,14 @@
 
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
-  color: #fff;
+  color: #149dcc;
   text-decoration: none;
+}
+
+.img-logo {
+  max-width: 80px;
+  max-height: 80px;
+  width: 100%;
 }
 
 /* Change navbar styling on scroll */
@@ -22,47 +28,15 @@
   box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.page-footer {
-  background: #f77d18;
-  color: white;
-}
-
-.footer-copyright {
-  background: #002a8f;
-}
-
-.social-vertical {
-  margin-top: -10px !important;
-}
-
-.masthead {
-  height: 100vh;
-  min-height: 500px;
-  background-image: url("../img/header-background.jpeg");
-  background-color: rgba(0, 0, 0, 0.548);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.layer {
-  background-color: rgba(0, 0, 0, 0.507);
-  height: 100vh;
-  min-height: 500px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 /* Change navbar styling on small viewports */
 @media (max-width: 991.98px) {
   .navbar {
-    background: #fff;
+    background: #149dcc;
   }
 
   .navbar .navbar-brand,
-  .navbar .nav-link {
-    color: #555;
+  .navbar .nav-link .fa-bars {
+    color: white;
   }
 }
 
